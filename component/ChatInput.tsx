@@ -1,7 +1,7 @@
 export default function ChatInput({ inputmsg, setInputmsg, handleApiCall, isStream, handleAbort }: any) {
   return (
     <footer className="absolute bottom-0 left-0 w-full p-4 ">
-      <div className="max-w-2xl mx-auto">
+      <div className="max-w-2xl  mx-auto">
         <div className="border bg-black border-slate-800 rounded-lg p-1.5 flex items-end gap-2 backdrop-blur">
           <textarea 
             value={inputmsg}
